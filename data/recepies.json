@@ -1,0 +1,130 @@
+{
+  "recepies": [
+    {
+      "id": 1,
+      "category": "soup",
+      "title": "Zupa tajska",
+      "header": "Zupa tajska to popisowa zupa mojej mamy, a zarazem w ostatnich latach ulubiona zupa mojego taty.",
+      "description": "Przepis ten zawiera dużo 'dziwnych' składników, których w przeciętnej kuchni nie ma i niekoniecznie są w każdym sklepie. Jednak jeżeli lubicie eksperymentować w kuchni, to naprawdę Was zachęcam, aby tego przepisu spróbować i w zupełnie niekonwencjonalny sposób dać drugie życie Waszemu „rosołowi z wczoraj”. Bo właśnie na bazie rosołu moja mama tę zupę przyrządza. Sam przepis jest naprawdę prosty, warto też dodać, że jest to zupa, która nie jest pikantna. Można ją zrobić w wersji pikantnej, dodając papryczki chilli, ale       w tej wersji, którą Wam tu opiszę, jest ona łagodna i bez obaw możecie ją podać nawet małym dzieciom. Rogerek zajada się tą zupą, podobnie jak dziadek.",
+      "ingredients": {
+        "for": "Składniki na 1,5 l rosołu.",
+        "list": [
+          {
+            "id": 1,
+            "name": "minipieczarek przekrojonych na pół",
+            "amount": "20"
+          },
+
+          {
+            "id": 1,
+            "name": "pomidorków koktajlowych w całości, ze skórką",
+            "amount": "20"
+          },
+          {
+            "id": 1,
+            "name": "kapusta pak-choi  pokrojona w paski",
+            "amount": "1"
+          },
+          {
+            "id": 1,
+            "name": "dużych krewetek obranych ze skórki",
+            "amount": "200 g"
+          },
+          {
+            "id": 1,
+            "name": "łodyga trawy cytrynowej  świeżej w całości lub 1 łyżka suszonej trawy cytrynowej",
+            "amount": "1"
+          },
+          { "id": 1, "name": "listków limonki kafir", "amount": "51" },
+          { "id": 1, "name": "sok z  limonki", "amount": "1/2" },
+          { "id": 1, "name": "łyżki pasty tajskiej Tom Yum", "amount": "2" },
+          { "id": 1, "name": " mleka kokosowego", "amount": "400 ml" },
+          { "id": 1, "name": "ryż (miseczka ryżu na osobę)", "amount": "1" },
+          { "id": 1, "name": "natka kolendry do podania", "amount": "1" }
+        ]
+      },
+      "recipe": [
+        {
+          "step": 1,
+          "text": "Do rosołu dodajemy przyprawy, warzywa oraz krewetki. Gotujemy około 15 minut."
+        },
+        {
+          "step": 2,
+          "text": "Dodajemy 2 łyżki pasty tajskiej Tom Yum, sok z limonki oraz puszkę mleczka kokosowego"
+        },
+        {
+          "step": 3,
+          "text": "Zupę podajemy z ryżem np. jaśminowym oraz natką kolendry"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "noodles",
+      "title": "Leniwe pierogi",
+      "header": "",
+      "description": "",
+      "ingredients": {
+        "for": "",
+        "list": [
+          {
+            "id": 1,
+            "name": "twarogu półtłustego lub tłustego",
+            "amount": "1/2 kg"
+          },
+
+          {
+            "id": 1,
+            "name": "jajka",
+            "amount": "2"
+          },
+          {
+            "id": 1,
+            "name": "kapusta pak-choi  pokrojona w paski",
+            "amount": "1"
+          },
+          {
+            "id": 1,
+            "name": "mąki pszennej",
+            "amount": "250 g"
+          },
+          {
+            "id": 1,
+            "name": "masła",
+            "amount": "50 g"
+          },
+          { "id": 1, "name": "łyżeczki soli", "amount": "1/2" },
+          { "id": 1, "name": "łyżeczka cukru", "amount": "1" }
+        ]
+      },
+      "recipe": [
+        {
+          "step": 1,
+          "text": "Twaróg rozdrabniamy, możemy puścić przez młynek, ja rozdrobniłam go, dosyć dokładnie mieszając rękoma. Pamiętam, że karaluchowe leniwe też miały drobinki twarogu – na moje oko ser nie był mielony. Dodajemy do twarogu miękkie masło i dwa żółtka. Mieszamy do powstania jednolitej masy. Można to zrobić w mikserze z „hakiem” do ugniatania ciasta. ",
+        },
+        {
+          "step": 2,
+          "text": "Białka powinniśmy ubić na pianę – ale przyznam się Wam, że często tego nie robię i daję białka po prostu razem z żółtkiem (też wychodzą dobre). Dodajemy do twarogu białka, następnie mąkę i całość dokładnie mieszamy przez kilka minut.",
+        },
+        {
+          "step": 3,
+          "text": "Ciasto wykładamy na posypaną mąką stolnicę lub blat kuchenny. Rozwałkowujemy je na około 1 cm grubości i kroimy w kratkę w kształcie rombów.",
+        },
+        {
+          "step": 4,
+          "text": "Pocięte kluski wrzucamy na lekko osolony wrzątek, gotujemy około jednej minuty od momentu ich wypłynięcia. Jeżeli chcemy je jeść od razu, to przekładamy na talerze, jeżeli chcemy je zachować na później, to przekładamy je na polany olejem półmisek i mieszamy z tłuszczem, tak żeby się nie posklejały.", 
+        },
+        {
+          "step": 5,
+          "text": "Przepis jest naprawdę prosty, zajmuje niecałe 30 minut, domyślam się, skąd pochodzi nazwa tych pierogów. Nadaje się doskonale dla leniwych w kuchni..." },
+        {
+          "step": 6,
+          "text": "Leniwe klasycznie podaje się ze śmietaną i cukrem lub z podsmażoną bułką tartą."
+        },
+        {
+          "step": 7,
+          "text": "Ja lubię najbardziej leniwe z masłem i świeżo mielonym pieprzem."
+        }
+    }
+  ]
+}
