@@ -13,22 +13,24 @@ import {
   faBatteryThreeQuarters
 } from "@fortawesome/free-solid-svg-icons";
 
-const PhoneMockup = ({ children, isUiWhite }) => {
+type Props = { children: any, isUiWhite: any } & typeof defaultProps;
+const defaultProps = {};
+// { children, isUiWhite }
+
+const PhoneMockup = (props: Props) => {
   return (
     <StyledPhoneMockup>
-      <StyledUiElements isUiWhite={isUiWhite}>
-        <StyledTime isUiWhite={isUiWhite}>8:46</StyledTime>
+      <StyledUiElements isUiWhite={props.isUiWhite}>
+        <StyledTime isUiWhite={props.isUiWhite}>8:46</StyledTime>
         <FontAwesomeIcon size="xs" icon={faSignal} />
         <FontAwesomeIcon size="xs" icon={faWifi} />
         <FontAwesomeIcon size="xs" icon={faBatteryThreeQuarters} />
       </StyledUiElements>
-      <StyledInnerSpace>{children}</StyledInnerSpace>
+      <StyledInnerSpace>{props.children}</StyledInnerSpace>
     </StyledPhoneMockup>
   );
 };
 
-PhoneMockup.propTypes = {
-  isUiWhite: PropTypes.bool.isRequired
-};
+
 
 export default PhoneMockup;
