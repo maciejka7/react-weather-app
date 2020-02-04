@@ -1,7 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-import { Wrapper } from './Navigation.styled.js'
+import { Wrapper } from "./Navigation.styled.js";
 
 type Props = {} & typeof defaultProps;
 const defaultProps = {};
@@ -11,18 +12,16 @@ const Navigation = (props: Props) => {
     <Wrapper>
       <ul>
         <li>
-          Home
+          <Link to="/">Home</Link>
         </li>
         <li>
-          Cities
+          <Link to="/cities">Cities</Link>
         </li>
       </ul>
     </Wrapper>
-  )
-}
+  );
+};
 
-Navigation.propTypes = {
+Navigation.propTypes = {};
 
-}
-
-export default Navigation
+export default Navigation;

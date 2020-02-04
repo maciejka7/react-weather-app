@@ -12,4 +12,10 @@ export const Wrapper = styled.section`
   height: ${wrapperH}px;
   border-top: 1px solid lightgray;
 
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+
 `

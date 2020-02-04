@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
 type Props = {data: any} & typeof defaultProps;
 const defaultProps = {};
 
@@ -18,7 +17,7 @@ const HomeWeather = (props: Props) => {
 
 
   return (
-    <div>
+    <div> 
       
       <p>City: {props.data.name}, {sys.country}</p>
       <p>temp: {main.temp} </p>
