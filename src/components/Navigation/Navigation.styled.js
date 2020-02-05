@@ -5,7 +5,7 @@ const wrapperH = 75;
 
 export const Wrapper = styled.section`
   position: absolute;
-  bottom: ${wrapperH - 20}px;
+  bottom: 0;
   background-color: white;
   width: 100%;
   color: black;

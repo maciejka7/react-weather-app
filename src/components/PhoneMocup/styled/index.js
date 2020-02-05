@@ -65,7 +65,7 @@ const StyledTime = styled.p`
 const StyledUiElements = styled.div`
   position: absolute;
   left: 20px;
-  top: 8px;
+  top: 0px;
   width: 333px;
   z-index: 110;
   display: flex;
@@ -75,6 +75,8 @@ const StyledUiElements = styled.div`
   svg {
     color: ${props => (props.isUiWhite ? "white" : "black")};
     margin-left: 5px;
+    position: relative;
+    top: -15px;
   }
 `;
 

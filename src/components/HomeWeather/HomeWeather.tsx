@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Wrapper, Temperature } from './HomeWeather.styled';
 
 type Props = {data: any} & typeof defaultProps;
 const defaultProps = {};
@@ -13,21 +13,23 @@ const HomeWeather = (props: Props) => {
   
   const sunrise = `${sunriseDate.getHours()}:${sunriseDate.getMinutes()}`
   const sunset = `${sunsetDate.getHours()}:${sunsetDate.getMinutes()}`
-  console.log(sunriseDate, sunsetDate)
+  console.log(props.data)
 
 
   return (
-    <div> 
-      
-      <p>City: {props.data.name}, {sys.country}</p>
-      <p>temp: {main.temp} </p>
-      <p>Feels like: {main.feels_like}</p>
-      <p>sunrise|sunset : {sunrise } | {sunset}</p>
-    </div>
+    <Wrapper> 
+      <Temperature> {parseFloat(main.temp).toFixed(1)} </Temperature>
+    </Wrapper>
   )
 }
 
 HomeWeather.defaultProps = defaultProps;
 
-export default HomeWeather
+export default HomeWeather;
+
+
+//       <p>City: {props.data.name}, {sys.country}</p>
+//       <p>temp: {main.temp} </p>
+//       <p>Feels like: {main.feels_like}</p>
+//       <p>sunrise|sunset : {sunrise } | {sunset}</p>
  

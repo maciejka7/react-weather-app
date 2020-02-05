@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import api from "../../utils/backend/api";
 import Navigation from "../../components/Navigation/Navigation";
 import HomeWeather from "../../components/HomeWeather/HomeWeather";
