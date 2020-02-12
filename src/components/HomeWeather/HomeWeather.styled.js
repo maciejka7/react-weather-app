@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-const DEG = 45+270;
+const DEG = 45 + 270;
 
 export const colors = {
-  violet: ['#c94b4b','#4b134f'],
+  violet: ['#c94b4b', '#4b134f'],
   blue: ['#2c3e50', '#3498db'],
-  orange: ['#F0CB35','#C02425'],
-  green: ['#5A3F37','#2C7744']
+  orange: ['#F0CB35', '#C02425'],
+  green: ['#5A3F37', '#2C7744']
 }
 
 
