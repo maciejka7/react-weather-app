@@ -37,14 +37,7 @@ export const Temperature = styled.p`
   text-align: left;
   margin-top: 15px;
   position: relative;
-
-  &::after{
-    display: block;
-    content: 'O';
-    font-size: 2rem;
-    position: absolute;
-    top: 15px;
-    left: 125px;
-  }
+  width: auto;
+  display: block;
 
 `
