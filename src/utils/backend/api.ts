@@ -15,4 +15,6 @@ export default class Api {
       console.error("API ERROR: ", error);
     }
   }
+
+  public static async getDataByCityName() {}
 }
