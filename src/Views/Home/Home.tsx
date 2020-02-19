@@ -17,7 +17,7 @@ const Home: React.FC = (props: Props) => {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await api.getTestData();
+      const res = await api.getDataByCityName("warsaw");
 
       setData(res);
       setLoading(false);

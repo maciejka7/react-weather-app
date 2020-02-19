@@ -1,20 +1,29 @@
 import axios from "axios";
+import { weatherResponsByCityInterface, WholeData } from "./api.interface";
 
 const apiKey = "955da05298ad1b17137af5b81df18016";
 const defaultCity = "lon";
-const basicUri = `http://api.openweathermap.org/data/2.5/weather?q=${defaultCity}&appid=${apiKey}&units=metric`;
+const testDataUrl = `http://api.openweathermap.org/data/2.5/weather?q=${defaultCity}&appid=${apiKey}&units=metric`;
+const basicUrl = `http://api.openweathermap.org/data/2.5/weather?appid=${apiKey}&units=metric&q=`;
 
-const findUrs = `https://api.openweathermap.org/find?q=lon`;
-// find?callback=jQuery191045375972505592577_1581954848939&q=lon&type=like&sort=population&cnt=30&appid=b6907d289e10d714a6e88b30761fae22&_=1581954848940
 export default class Api {
   public static async getTestData() {
     try {
-      let res = await axios.get(basicUri);
+      let res: weatherResponsByCityInterface = await axios.get(testDataUrl);
       return res.data;
     } catch (error) {
       console.error("API ERROR: ", error);
     }
   }
 
-  public static async getDataByCityName() {}
+  public static async getDataByCityName(cityName: string) {
+    try {
+      let res: weatherResponsByCityInterface = await axios.get(
+        `${basicUrl}${cityName}`
+      );
+      return res.data;
+    } catch (error) {
+      console.error("API ERROR: getDataByCityName() -> ", error);
+    }
+  }
 }
